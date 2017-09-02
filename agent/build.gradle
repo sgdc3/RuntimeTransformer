@@ -18,6 +18,9 @@ jar {
     }
 }
 
+
+jar.archiveName = 'agent.jar'
+
 apply plugin: 'maven-publish'
 
 publishing {
