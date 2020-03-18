@@ -1,6 +1,6 @@
 dependencies {
-    compileOnly group: 'org.ow2.asm', name: 'asm', version: '7.3.1'
-    compileOnly group: 'org.ow2.asm', name: 'asm-commons', version: '7.3.1'
+    compile group: 'org.ow2.asm', name: 'asm', version: '7.3.1'
+    compile group: 'org.ow2.asm', name: 'asm-commons', version: '7.3.1'
 }
 
 jar {
